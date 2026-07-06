@@ -103,6 +103,25 @@
   }
   .section-lede{ color:#3E5670; font-size: 16.5px; margin: 0 0 28px; max-width: 60ch; }
 
+  .proof-section{ padding: 48px 0 12px; }
+  .proof-section .section-lede{ margin-bottom: 22px; }
+  .video-frame{
+    position: relative; width: 100%; padding-top: 56.25%;
+    border-radius: var(--radius); overflow: hidden;
+    background: var(--code-bg); border: 1px solid var(--line);
+    box-shadow: 0 8px 28px rgba(20,39,61,0.12);
+  }
+  .video-frame iframe{
+    position:absolute; inset:0; width:100%; height:100%; border:0;
+  }
+  .video-caption{
+    font-size: 14.5px; color:#5A6E80; margin: 14px 0 0; text-align:center;
+  }
+  .proof-tieback{
+    margin-top: 26px; background: var(--white); border:1px solid var(--line);
+    border-radius: var(--radius-sm); padding: 20px 22px; font-size: 16.5px; color:#2B3C4C;
+  }
+
   .howto{ display:grid; grid-template-columns: repeat(3,1fr); gap:18px; }
   @media (max-width: 700px){ .howto{ grid-template-columns: 1fr; } }
   .howto-item{
@@ -231,6 +250,22 @@
     </div>
   </div>
 </div>
+
+<section class="proof-section">
+  <div class="wrap">
+    <h2 class="section-title">Who's behind this</h2>
+    <p class="section-lede">One continuous take, shot solo on a phone, of the North High School drum line — no rig, no crew, no second try.</p>
+
+    <div class="video-frame">
+      <iframe src="https://www.youtube.com/embed/uttirViaSmA" title="North High School drum line — shot solo, iPhone 14 Pro Max" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <p class="video-caption">North High drum line — Sheboygan, July 4, 2026. Shot solo, handheld, iPhone 14 Pro Max, single continuous take.</p>
+
+    <div class="proof-tieback">
+      The same eye that catches a shot like this is the one behind the system on this page. Both come from working alone, on a fixed budget, building something real instead of waiting for permission.
+    </div>
+  </div>
+</section>
 
 <section id="howto">
   <div class="wrap">
