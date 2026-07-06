@@ -1,2 +1,2 @@
 # shevegas-guide
-AI setup guide from DheVegas
+AI setup guide from SheVegas
